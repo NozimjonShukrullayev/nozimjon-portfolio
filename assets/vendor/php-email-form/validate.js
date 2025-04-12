@@ -8,8 +8,8 @@
 			event.preventDefault()
 
 			let thisForm = this
-			let botToken = '7050168568:AAG4UDnhTen6HVUc4gnb5yZp45GLX-fjGvM' // O'zingizning Telegram bot tokeningizni kiriting
-			let chatId = '962709515' // O'zingizning Telegram chat ID'ingizni kiriting
+			let botToken = '7050168568:AAG4UDnhTen6HVUc4gnb5yZp45GLX-fjGvM'
+			let chatId = '962709515'
 
 			thisForm.querySelector('.loading').classList.add('d-block')
 			thisForm.querySelector('.error-message').classList.remove('d-block')
